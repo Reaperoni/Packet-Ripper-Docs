@@ -1,0 +1,15 @@
+site_name: Packet Ripper
+theme:
+  name: material
+  favicon: images/favicon.ico
+  logo: images/favicon.png
+  features:
+    - navigation.tabs
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+
+
+
+
+
