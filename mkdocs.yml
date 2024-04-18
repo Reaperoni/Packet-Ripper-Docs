@@ -1,4 +1,7 @@
 site_name: Packet Ripper
+site_description: Packet Ripper is a tool for intercepting and modifying network packets.
+site_author: Packet Ripper
+site_url: https://docs.packetripper.live
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
