@@ -1,13 +1,51 @@
 site_name: Packet Ripper
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 theme:
   name: material
   favicon: images/favicon.ico
   logo: images/favicon.png
   features:
     - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - content.code.copy
+    - content.code.highlight
+    - content.code.annotate
+  palette:
+  - scheme: default
+    toggle:
+      primary: indigo
+      icon: material/brightness-7 
+      name: Switch to dark mode
+  - scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - 'User Guide':
+    - user-guide/index.md
+    - 'Proxy': user-guide/proxy.md
+    - 'Parsers': user-guide/parsers.md
+    - 'Hex-Editor': user-guide/hex-editor.md
+    - 'Logger': user-guide/logger.md
+    - 'API' : user-guide/api.md
+    - 'Injector':
+      - user-guide/injector/index.md
+      - Injecting Methods: user-guide/injector/injecting-methods.md
+      - Launch Methods: user-guide/injector/launch-methods.md
+      - Flags: user-guide/injector/flags.md
+
 
 
 

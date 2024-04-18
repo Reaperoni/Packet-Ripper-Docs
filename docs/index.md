@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Packet Ripper[¶](https://docs.packetriper.live/index.html#PacketRipper "Permanent link")
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+[Packet Ripper](https://packetripper.live/)   is your all-in-one solution for advanced network packet analysis. Seamlessly integrated with the Windows Winsock API using a dynamic link library (DLL), this powerful tool captures and logs application-level packets in real-time. Unveil the hexadecimal representation of your data with a built-in hex editor, showcasing values dynamically in various types. Take control of your packet interpretation using the sophisticated built-in parser, or employ our Python API for real-time scripting flexibility.
 
-## Commands
+-   To quickly get started as a new user, check out our  [Getting Started Guide](/getting-started)
+-   To learn about the user interface, check out the more extensive  [User Guide](/user-guide)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Of course, if you just have some questions, you might find our  [discussions](https://join.slack.com/t/packetripper/shared_invite/zt-2c50lxf5t-l8tetkIoTUYnEd9I2Lr86Q) on slack  helpful, or as always [contact us](https://packetripper.live/support) with any questions.
